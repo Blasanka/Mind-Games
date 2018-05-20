@@ -1,6 +1,8 @@
 # mind_games
 
-A new Flutter project.
+Is a text base game for anyone to pass time with his/her pal.
+
+Still in underconstructor!
 
 ## Getting Started
 
