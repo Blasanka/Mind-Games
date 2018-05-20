@@ -52,18 +52,23 @@ class _PartnerSectionState extends State<PartnerSection> {
 
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Text('Is it correct?'),
-          Container(height: 20.0,),
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[leftButton(), rightButton()],
-          ),
-        ],
+    return new Expanded(
+      flex: 2,
+      child: new Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Text('Is it correct?'),
+            Container(
+              height: 20.0,
+            ),
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[leftButton(), rightButton()],
+            ),
+          ],
+        ),
       ),
     );
   }

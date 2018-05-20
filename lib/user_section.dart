@@ -17,9 +17,12 @@ class _UserSectionState extends State<UserSection> {
 
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      color: color,
-      child: new Center(child: Text('It is not posible!')),
+    return new Expanded(
+      flex: 2,
+      child: new Container(
+        color: color,
+        child: new Center(child: Text('It is not posible!')),
+      ),
     );
   }
 }

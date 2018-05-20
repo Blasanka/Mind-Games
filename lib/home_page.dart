@@ -17,8 +17,8 @@ class HomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          new Expanded(flex: 2, child: UserSection()),
-          new Expanded(flex: 1, child: PartnerSection())
+          UserSection(),
+          PartnerSection()
         ],
       ),
     );
